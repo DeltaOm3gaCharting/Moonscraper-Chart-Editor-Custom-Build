@@ -422,10 +422,10 @@ namespace MoonscraperChartEditor.Song
         {
             get
             {
-                Note seperatePrevious = previousSeperateNote;
+                //Note seperatePrevious = previousSeperateNote;
 
-                if ((seperatePrevious == null) || (seperatePrevious != null && mask == seperatePrevious.mask))
-                    return true;
+                //if ((seperatePrevious == null) || (seperatePrevious != null && mask == seperatePrevious.mask))
+                    //return true;
 
                 return false;
             }
